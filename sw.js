@@ -2,12 +2,12 @@
    - Guarda una copia de la app para que funcione sin internet.
    - La página principal se pide primero a internet: así, cuando subes una versión nueva, llega sola.
    - Letras e iconos se sirven desde la copia guardada (no cambian). */
-const CACHE = 'forja-0.3.0';
+const CACHE = 'forja-0.3.1';
 const FILES = [
   './', 'index.html', 'manifest.webmanifest', 'favicon.svg',
   'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png',
-  'fonts/barlow-latin-400-normal.woff2', 'fonts/barlow-latin-500-normal.woff2', 'fonts/barlow-latin-600-normal.woff2',
-  'fonts/barlow-condensed-latin-600-normal.woff2', 'fonts/barlow-condensed-latin-700-normal.woff2'
+  'barlow-latin-400-normal.woff2', 'barlow-latin-500-normal.woff2', 'barlow-latin-600-normal.woff2',
+  'barlow-condensed-latin-600-normal.woff2', 'barlow-condensed-latin-700-normal.woff2'
 ];
 
 self.addEventListener('install', e => {
